@@ -2,7 +2,7 @@ import axios from "axios";
 import { createContext, useContext, useEffect, useState } from "react";
 import { toast } from "react-toastify";
 
-const url = "http://localhost:5002/api/v1/tasks";
+const url = import.meta.env.VITE_API_BASE;
 
 const AppContext = createContext();
 
