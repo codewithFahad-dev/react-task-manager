@@ -11,7 +11,7 @@ env.config();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // frontend URL
+    origin: "https://react-todos-manager-app.netlify.app", // frontend URL
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true, // if using cookies
   })
